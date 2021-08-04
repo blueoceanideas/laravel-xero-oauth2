@@ -20,10 +20,10 @@
     ],
     "require": {
         "php": "^7.3|^8.0",
-        "xeroapi/xero-php-oauth2": "^2.0",
+        "xeroapi/xero-php-oauth2": "^2.0"
     },
     "require-dev": {
-        "symfony/var-dumper": "^4.3",
+        "symfony/var-dumper": "^4.3"
     },
     "autoload": {
         "psr-4": {
