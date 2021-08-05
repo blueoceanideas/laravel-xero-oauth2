@@ -3,6 +3,7 @@
 namespace Webfox\Xero\Controllers;
 
 use Illuminate\Http\Request;
+use Themosis\Core\Validation\ValidatesRequests;
 use Webfox\Xero\Oauth2Provider;
 use Illuminate\Routing\Controller;
 use XeroAPI\XeroPHP\Api\IdentityApi;
@@ -10,7 +11,6 @@ use Illuminate\Support\Facades\Event;
 use Webfox\Xero\Events\XeroAuthorized;
 use Webfox\Xero\OauthCredentialManager;
 use Illuminate\Support\Facades\Redirect;
-use Illuminate\Foundation\Validation\ValidatesRequests;
 
 class AuthorizationCallbackController extends Controller
 {

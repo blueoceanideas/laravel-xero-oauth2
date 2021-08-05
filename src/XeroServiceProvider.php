@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 use XeroAPI\XeroPHP\Configuration;
 use XeroAPI\XeroPHP\Api\IdentityApi;
 use GuzzleHttp\Client as GuzzleClient;
-use Illuminate\Foundation\Application;
+use App\Overrides\Application;
 use XeroAPI\XeroPHP\Api\AccountingApi;
 use Illuminate\Support\ServiceProvider;
 
